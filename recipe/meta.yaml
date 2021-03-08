@@ -18,7 +18,7 @@ requirements:
   host:
     - python >=3.6
     - pip
-    - setuptools >=38.6.0
+    - flit-core >=2,<4
   run:
     - python >=3.6
 
