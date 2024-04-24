@@ -28,6 +28,10 @@ test:
     - aiomultiprocess.pool
     - aiomultiprocess.scheduler
     - aiomultiprocess.types
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/omnilib/aiomultiprocess/
